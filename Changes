@@ -1,3 +1,6 @@
+0.03    1/19/2010
+        - META.yml compatible with latest Module::Build
+
 0.02    1/19/2010
         - Added link to the Github repository.
         - Better test planning in t/00-load.t.
