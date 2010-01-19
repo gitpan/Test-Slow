@@ -4,7 +4,7 @@ package Test::Slow;
 
 =head1 NAME
 
-Test::Slow - Skip test that are too slow to run frequently.
+Test::Slow - Skip test that are too slow to run frequently
 
 =head1 SYNOPSIS
 
@@ -28,7 +28,7 @@ use warnings;
 use strict;
 use Test::More;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 BEGIN {
     plan(skip_all => 'Slow test.') if $ENV{QUICK_TEST};

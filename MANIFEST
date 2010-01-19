@@ -1,9 +1,11 @@
 Build.PL
 Changes
 lib/Test/Slow.pm
-Makefile.PL
 MANIFEST			This list of files
-MANIFEST.SKIP
 META.yml
 README
 t/00-load.t
+t/kwalitee.t
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
